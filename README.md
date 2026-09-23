@@ -5,7 +5,7 @@ flows from Drupal to the front end; preview and on-demand revalidation are handl
 Next.js for Drupal (`next`) module. This repo is a **Pantheon custom upstream** — sites
 created from it get the decoupled content model, the Next.js wiring, and (optionally) the
 demo content out of the box. The matching front end is a separate repository,
-[`willjackson/d11-nextjs-starter-fe`](https://github.com/willjackson/d11-nextjs-starter-fe).
+[`pantheon-upstreams/demo-nextjs-drupal-frontend`](https://github.com/pantheon-upstreams/demo-nextjs-drupal-frontend).
 
 **Full setup, usage, and deploy:** see **[GUIDEBOOK.md](GUIDEBOOK.md)** (ships identically in
 the backend and front-end repos).
@@ -14,7 +14,7 @@ the backend and front-end repos).
 
 - Drupal 11 on PHP 8.3, docroot `web/`, hosted on Pantheon (Integrated Composer).
 - DDEV project `d11-nextjs-be`, served at `https://d11-nextjs-be.ddev.site`.
-- Front end: a separate Next.js repo (`d11-nextjs-starter-fe`, DDEV project `d11-nextjs-fe`).
+- Front end: a separate Next.js repo (`demo-nextjs-drupal-frontend`, DDEV project `d11-nextjs-fe`).
 
 ## Requirements
 
